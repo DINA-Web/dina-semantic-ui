@@ -2,7 +2,6 @@ node_modules/
 test/coverage/
 coverage/
 out/
-theme.config
 tasks/**/oauth.js
 
 # Numerous always-ignore extensions
