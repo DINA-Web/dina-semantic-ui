@@ -1,0 +1,15 @@
+services:
+  - docker
+
+script:
+  - export PUSH_BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH; else echo ""; fi)
+  - echo "PUSH_BRANCH=$PUSH_BRANCH, TRAVIS_PULL_REQUEST=$TRAVIS_PULL_REQUEST, TRAVIS_BRANCH=$TRAVIS_BRANCH"
+
+after_success:
+  - echo "after_success"
+  - if [ "$PUSH_BRANCH" == "master" ]; then
+    docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD";
+    docker build -t dina-semantic-ui-docs .;
+    docker tag dina-semantic-ui-docs dina/dina-semantic-ui-docs;
+    docker push dina/dina-semantic-ui-docs;
+    fi
