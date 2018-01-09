@@ -58,10 +58,10 @@ standalone : true
       </a>
       <h1 class="ui inverted header">
         <span class="library">
-          Semantic UI
+          DINA Semantic UI
         </span>
         <span class="tagline">
-          User Interface is the language of the web
+          DINA style library based on Semantic UI
         </span>
       </h1>
       <div class="ui hidden divider"></div>
