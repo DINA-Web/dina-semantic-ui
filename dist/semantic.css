@@ -23520,7 +23520,7 @@ Floated Menu / Item
   position: relative;
   min-height: 1em;
   margin: 1em 0em;
-  background: #F8F8F9;
+  background: rgba(248, 248, 249, 0.95);
   padding: 1em 1.5em;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
@@ -23801,7 +23801,7 @@ Floated Menu / Item
 /* Positive */
 
 .ui.positive.message {
-  background-color: #FCFFF5;
+  background-color: rgba(252, 255, 245, 0.95);
   color: #2C662D;
 }
 
@@ -23818,7 +23818,7 @@ Floated Menu / Item
 /* Negative */
 
 .ui.negative.message {
-  background-color: #FFF6F6;
+  background-color: rgba(255, 246, 246, 0.95);
   color: #9F3A38;
 }
 
@@ -23835,7 +23835,7 @@ Floated Menu / Item
 /* Info */
 
 .ui.info.message {
-  background-color: #F8FFFF;
+  background-color: rgba(248, 255, 255, 0.95);
   color: #276F86;
 }
 
@@ -23852,7 +23852,7 @@ Floated Menu / Item
 /* Warning */
 
 .ui.warning.message {
-  background-color: #FFFAF3;
+  background-color: rgba(255, 250, 243, 0.95);
   color: #573A08;
 }
 
@@ -23869,7 +23869,7 @@ Floated Menu / Item
 /* Error */
 
 .ui.error.message {
-  background-color: #FFF6F6;
+  background-color: rgba(255, 246, 246, 0.95);
   color: #9F3A38;
 }
 
@@ -23886,7 +23886,7 @@ Floated Menu / Item
 /* Success */
 
 .ui.success.message {
-  background-color: #FCFFF5;
+  background-color: rgba(252, 255, 245, 0.95);
   color: #2C662D;
 }
 
@@ -24072,6 +24072,27 @@ Floated Menu / Item
 /*******************************
         Site Overrides
 *******************************/
+
+.message.flash {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+}
+
+@media only screen and (min-width: 768px) {
+  .message.flash {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .message.flash {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
 /*!
  * # Semantic UI 2.2.13 - Table
  * http://github.com/semantic-org/semantic-ui/
