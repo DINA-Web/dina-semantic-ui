@@ -568,7 +568,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   min-width: 320px;
-  background: #e7e7e5;
+  background: white;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.4285em;
@@ -760,7 +760,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 *******************************/
 
 .dina.background {
-  background-color: #e7e7e5;
+  background-color: white;
 }
 /*!
  * # Semantic UI 2.2.13 - Button
@@ -24078,6 +24078,7 @@ Floated Menu / Item
   position: fixed;
   width: 100%;
   z-index: 999999;
+  border-radius: 0px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -34741,7 +34742,7 @@ body.pushable {
 }
 
 body.pushable > .pusher {
-  background: #e7e7e5;
+  background: white;
 }
 
 /* Pusher should inherit background from context */
