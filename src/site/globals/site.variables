@@ -15,7 +15,7 @@
 /*-------------------
         Colors
 --------------------*/
-@pageBackground: #e7e7e5;
+@pageBackground: white;
 @segmentBackground: #f5f5f4;
 @disabledInputBackgroundColor: grey;
 

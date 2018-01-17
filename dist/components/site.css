@@ -26,7 +26,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   min-width: 320px;
-  background: #e7e7e5;
+  background: white;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.4285em;
@@ -202,5 +202,5 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 *******************************/
 
 .dina.background {
-  background-color: #e7e7e5;
+  background-color: white;
 }
