@@ -725,3 +725,7 @@ a.ui.inverted.grey.header:hover {
          Site Overrides
 *******************************/
 
+h1.ui.header a.side-link {
+  cursor: pointer;
+  font-size: 1.2rem;
+}

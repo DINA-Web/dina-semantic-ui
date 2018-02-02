@@ -7477,6 +7477,11 @@ a.ui.inverted.grey.header:hover {
 /*******************************
          Site Overrides
 *******************************/
+
+h1.ui.header a.side-link {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
 /*!
  * # Semantic UI 2.2.13 - Icon
  * http://github.com/semantic-org/semantic-ui/
